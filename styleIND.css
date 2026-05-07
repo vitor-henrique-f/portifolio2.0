@@ -1,0 +1,94 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-image: url(assets/orange-concrete-wall.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#nome {
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    color: rgb(236, 220, 191);
+    background-color: rgb(112, 128, 112);
+    top: 127px;
+    font-style: italic;
+    font-family: "Andrew";
+    box-shadow: 0 10px 25px rgba(70, 80, 70, 0.733);
+}
+
+.sobre {
+  display: block;  
+  background-image: url(assets/WhatsApp\ Image\ 2026-05-06\ at\ 21.23.09.jpeg);
+  width: 320px;
+  height: 370px;
+  position: relative;
+  top: 269px;
+  left: 150px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+  font-weight: bold;
+  font-style:oblique;
+}
+
+#tSobre {
+  color: rgba(255, 255, 255, 0.753);
+  font-size: 23px;
+  position: relative;
+  left: 30px;
+  top: 21px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 10px 25px rgba(88, 100, 88, 0.733);
+}
+
+@font-face {
+    font-family: "Andrew";
+    src: url("assets/ANDREW\ ELEGANT\ Regular.otf") format("truetype");
+
+}
+
+.projetos {
+  display: block;  
+  background-image: url(assets/close-up-arrangement-modern-vases\ \(1\).jpg);
+  width: 820px;
+  height: 370px;
+  position: relative;
+  bottom: 100px;
+  left: 635px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+  font-weight: bold;
+  font-style:oblique;
+}
+
+#tProjetos {
+  color: rgba(255, 255, 255, 0.753);
+  font-size: 23px;
+  position: relative;
+  left: 30px;
+  top: 21px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+  user-select: none; 
+}

@@ -1,2 +1,2 @@
-# portifolio2.0
-Um repositório do github com meu repositório web estático.
+# portfolio2.0
+Um repositório do github com meu portfólio web estático.
