@@ -5,7 +5,7 @@
 }
 
 body{
-   background-image: url(assets/orange-concrete-wall.jpg);
+   background-image: url(assets/modern-brick-wall-textured-background.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -14,12 +14,11 @@ body{
     font-size: 70px;
     text-align: center;
     position: relative;
-    color: rgb(236, 220, 191);
-    background-color: rgb(112, 128, 112);
+    color: rgb(255, 255, 255);
     top: 127px;
     font-style: italic;
     font-family: "Andrew";
-    box-shadow: 0 10px 25px rgba(70, 80, 70, 0.733);
+    text-shadow: 0 0 70px rgba(255, 255, 255, 0.363);
 }
 
 .sobre {
@@ -54,7 +53,7 @@ a {
 
 a:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 15px rgba(70, 80, 70, 0.733);
+  box-shadow: 0 10px 55px rgba(255, 255, 255, 0.137);
 }
 
 @font-face {
@@ -65,7 +64,7 @@ a:hover {
 
 .projetos {
   display: block;  
-  background-image: url(assets/close-up-arrangement-modern-vases\ \(1\).jpg);
+  background-image: url(assets/view-delicate-white-rose-flowers.jpg);
   width: 820px;
   height: 370px;
   position: relative;

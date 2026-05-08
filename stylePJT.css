@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/black-stone-wall-texture-bali-indonesia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  user-select: none;  
+}
+
+header {
+  background-color: black;
+  height: 75px;
+  box-shadow: 0 0px 35px rgb(0, 0, 0); 
+    
+}
+
+#tHeader {
+  color: rgb(255, 255, 255);
+  font-size: 27px;
+  padding-top: 20px;
+  padding-left: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 0 0 36px rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  user-select: none;
+}
+
+.hUl {
+  display: flex;
+  gap: 45px;
+  font-size: 23px;
+  padding-left: 1150px;
+  position: relative;
+  bottom: 29px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#hSobre {
+  color:rgb(106, 158, 160);
+}
+
+#hContato {
+  color:burlywood;
+}
+
+#hSobre::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: width 0.3s;
+}
+
+#hContato::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: width 0.3s;
+}
+
+#hIndex::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: width 0.3s;
+}
+
+#hSobre:hover::after {
+  width: 100%;
+}
+
+#hContato:hover::after {
+  width: 100%;
+}
+
+#hIndex:hover::after {
+  width: 100%;
+}
+
+.exJava {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 170px;
+  position: relative;
+  top: 200px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0px 35px rgb(0, 0, 0);
+}
+
+#titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 0 0 55px rgb(255, 255, 255);
+}
+
+.pCards {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+
+}
+
+#java {
+  display: block;   
+  background-image: url(assets/closeup-programming-code-language.jpg);
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 363px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+} 
+
+#java::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2.9px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.5s ease;
+}
+
+#java:hover::before {
+  clip-path: inset(0 0 0 0);
+}
+
+.exBanco {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 170px;
+  position: relative;
+  top: 530px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0px 35px rgb(0, 0, 0);
+}
+
+#banco { 
+  display: block;   
+  background-image: url(assets/close-up-minimalistic-white-furniture-with-black-handles-kitchen-cabinet-details.jpg);
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 700px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#banco::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.5s ease;
+}
+
+#banco:hover::before {
+  clip-path: inset(0 0 0 0);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 1000px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+.dGraficos {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 170px;
+  position: relative;
+  top: 863px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0px 35px rgb(0, 0, 0);
+}
+
+#DG {
+  display: block;   
+  background-image: url(assets/drawing-supplies-near-doodles.jpg);
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 1020px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;  
+}
+
+#DG::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2.9px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.5s ease;
+}
+
+#DG:hover::before {
+  clip-path: inset(0 0 0 0);
+}
+
+footer {
+  background-color: black;
+  height: 75px;
+  box-shadow: 0 0px 35px rgb(0, 0, 0);
+  position: relative;
+  top: 1163px;
+}
+
+.fUl {
+  display: flex;
+  gap: 45px;
+  font-size: 23px;
+  padding-left: 1150px;
+  position: relative;
+  bottom: 5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+#tFooter {
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 23px;
+  padding-left: 70px;
+}
+
+#fSobre{
+  color:rgb(106, 158, 160);  
+}
+
+#fContato {
+  color:burlywood;
+}
+
+#fSobre::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: width 0.3s;
+}
+
+#fContato::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: width 0.3s;
+}
+
+#fIndex::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: width 0.3s;
+}
+
+#fSobre:hover::after {
+  width: 100%;
+}
+
+#fContato:hover::after {
+  width: 100%;
+}
+
+#fIndex:hover::after {
+  width: 100%;
+}
